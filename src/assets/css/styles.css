@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 :root {
     --color-primary:#617735;
-    --color-secondary: #B6D877;
+    --color-secondary: hsl(81, 55%, 66%);
     --color-terciary: #95C93D;
 }
 
@@ -28,7 +28,12 @@ html, body {
 .bg-primary {
     background-color: var(--color-primary) !important;
 }
-
+.bg-secondary {
+    background-color: var(--color-secondary) !important;
+}
 .text-primary {
     color: var(--color-primary) !important;
+}
+.text-success {
+    color: var(--color-terciary) !important;
 }
